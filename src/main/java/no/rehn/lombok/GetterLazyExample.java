@@ -2,6 +2,7 @@ package no.rehn.lombok;
 
 import lombok.Getter;
 
+//lombok 0.10
 public class GetterLazyExample {
 	//@Getter(lazy = true) 
 	private final int[] cached = expensive();
